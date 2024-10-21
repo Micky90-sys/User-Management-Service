@@ -30,7 +30,7 @@ public class UserService implements UserDetailsService {
         return userRepository.save(user);
     }
 
-    // Aggiungi il metodo loginUser
+    
     public UserDetails loginUser(User user) {
         UserDetails userDetails = loadUserByUsername(user.getUsername());
         if (passwordEncoder.matches(user.getPassword(), userDetails.getPassword())) {
