@@ -25,14 +25,14 @@ public class User implements UserDetails {
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
         name = "user_roles", // Nome della tabella di join
-        joinColumns = @JoinColumn(name = "user_id"), // Colonna user_id per la tabella User
-        inverseJoinColumns = @JoinColumn(name = "role_id") // Colonna role_id per la tabella Role
+        joinColumns = @JoinColumn(name = "user_id"), 
+        inverseJoinColumns = @JoinColumn(name = "role_id") 
     )
-    private List<Role> roles; // Usa l'entità Role invece di String
+    private List<Role> roles; 
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null; // Dovresti implementare questo metodo per ritornare le authorities
+        return null; 
     }
 
     @Override
