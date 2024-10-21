@@ -1,0 +1,10 @@
+com\nerlin\usermanagementservice\model\Role.class
+com\nerlin\usermanagementservice\UserManagementServiceApplication.class
+com\nerlin\usermanagementservice\model\User.class
+com\nerlin\usermanagementservice\security\JwtRequestFilter.class
+com\nerlin\usermanagementservice\security\JwtUtil.class
+SecurityConfig.class
+com\nerlin\usermanagementservice\dto\UserLoginDto.class
+com\nerlin\usermanagementservice\service\UserService.class
+com\nerlin\usermanagementservice\repository\UserRepository.class
+com\nerlin\usermanagementservice\controller\UserController.class
