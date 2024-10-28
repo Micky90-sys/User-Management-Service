@@ -30,7 +30,7 @@ Clonare il repository:
 
 bash
 Copia codice
-git clone https://github.com/tuo-username/user-management-service.git
+git clone git clone https://github.com/Micky90-sys/User-Management-Service.gi
 cd user-management-service
 Compilare il progetto:
 
